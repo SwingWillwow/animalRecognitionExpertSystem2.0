@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rules>
+    <rule id="1" end="false">
+        <conditions>
+            <condition id="1">animal has hair</condition>
+        </conditions>
+        <conclusions>
+            <conclusion id="1">animal is mammal</conclusion>
+        </conclusions>
+    </rule>
+    <rule id="2" end="false">
+        <conditions>
+            <condition id="1">animal gives milk</condition>
+        </conditions>
+        <conclusions>
+            <conclusion id="1">animal is mammal</conclusion>
+        </conclusions>
+    </rule>
+    <rule id="3" end="false">
+        <conditions>
+            <condition id="1">animal has feathers</condition>
+        </conditions>
+        <conclusions>
+            <conclusion id="1">animal is bird</conclusion>
+        </conclusions>
+    </rule>
+    <rule id="4" end="false">
+        <conditions>
+            <condition id="1">animal flies</condition>
+            <condition id="2">animal lays eggs</condition>
+        </conditions>
+        <conclusions>
+            <conclusion id="1">animal is bird</conclusion>
+        </conclusions>
+    </rule>
+    <rule id="5" end="false">
+        <conditions>
+            <condition id="1">animal eats meat</condition>
+        </conditions>
+        <conclusions>
+            <conclusion id="1">animal is carnivore</conclusion>
+        </conclusions>
+    </rule>
+    <rule id="6" end="false">
+        <conditions>
+            <condition id="1">animal has pointed tooth</condition>
+            <condition id="2">animal has claws</condition>
+            <condition id="3">animal has forward eyes</condition>
+        </conditions>
+        <conclusions>
+            <conclusion id="1">animal is carnivore</conclusion>
+        </conclusions>
+    </rule>
+    <rule id="7" end="false">
+        <conditions>
+            <condition id="1">animal is mammal</condition>
+            <condition id="2">animal has hoofs</condition>
+        </conditions>
+        <conclusions>
+            <conclusion id="1">animal is ungulate</conclusion>
+        </conclusions>
+    </rule>
+    <rule id="8" end="false">
+        <conditions>
+            <condition id="1">animal is mammal</condition>
+            <condition id="2">animal chews cud</condition>
+        </conditions>
+        <conclusions>
+            <conclusion id="1">animal is ungulate</conclusion>
+        </conclusions>
+    </rule>
+    <rule id="9" end="true">
+        <conditions>
+            <condition id="1">animal is mammal</condition>
+            <condition id="2">animal is carnivore</condition>
+            <condition id="3">animal has tawny color</condition>
+            <condition id="4">animal has dark spots</condition>
+        </conditions>
+        <conclusions>
+            <conclusion id="1">animal is cheetah</conclusion>
+        </conclusions>
+    </rule>
+    <rule id="10" end="true">
+        <conditions>
+            <condition id="1">animal is mammal</condition>
+            <condition id="2">animal is carnivore</condition>
+            <condition id="3">animal has tawny color</condition>
+            <condition id="4">animal has black stripes</condition>
+        </conditions>
+        <conclusions>
+            <conclusion id="1">animal is tiger</conclusion>
+        </conclusions>
+    </rule>
+    <rule id="11" end="true">
+        <conditions>
+            <condition id="1">animal is mammal</condition>
+            <condition id="2">animal has long neck</condition>
+            <condition id="3">animal has long legs</condition>
+            <condition id="4">animal has dark spots</condition>
+        </conditions>
+        <conclusions>
+            <conclusion id="1">animal is giraffe</conclusion>
+        </conclusions>
+    </rule>
+    <rule id="12" end="true">
+        <conditions>
+            <condition id="1">animal is ungulate</condition>
+            <condition id="2">animal has black stripes</condition>
+        </conditions>
+        <conclusions>
+            <conclusion id="1">animal is zebra</conclusion>
+        </conclusions>
+    </rule>
+    <rule id="13" end="true">
+        <conditions>
+            <condition id="1">animal is bird</condition>
+            <condition id="2">animal does not fly</condition>
+            <condition id="3">animal has long neck</condition>
+            <condition id="4">animal has long legs</condition>
+            <condition id="5">animal is black and white</condition>
+        </conditions>
+        <conclusions>
+            <conclusion id="1">animal is ostrich</conclusion>
+        </conclusions>
+    </rule>
+    <rule id="14" end="true">
+        <conditions>
+            <condition id="1">animal is bird</condition>
+            <condition id="2">animal does not fly</condition>
+            <condition id="3">animal swims</condition>
+            <condition id="4">animal is black and white</condition>
+        </conditions>
+        <conclusions>
+            <conclusion id="1">animal is penguin</conclusion>
+        </conclusions>
+    </rule>
+    <rule id="15" end="true">
+        <conditions>
+            <condition id="1">animal is bird</condition>
+            <condition id="2">animal files well</condition>
+        </conditions>
+        <conclusions>
+            <conclusion id="1">animal is albatross</conclusion>
+        </conclusions>
+    </rule>
+    <rule id="16" end="false">
+        <conditions>
+            <condition id="1">animal live in sea</condition>
+            <condition id="2">animal breath with cheek</condition>
+        </conditions>
+        <conclusions>
+            <conclusion id="1">animal is fish</conclusion>
+        </conclusions>
+    </rule>
+    <rule id="17" end="true">
+        <conditions>
+            <condition id="1">animal is fish</condition>
+            <condition id="2">animal can eat people</condition>
+        </conditions>
+        <conclusions>
+            <conclusion id="1">animal is shark</conclusion>
+        </conclusions>
+    </rule>
+</rules>
